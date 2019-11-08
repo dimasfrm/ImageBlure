@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:text="Image Result"
+        android:textColor="@color/red"
+        android:textSize="35sp"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/imgResult"
+        android:layout_width="396dp"
+        android:layout_height="508dp"
+        android:layout_centerInParent="true"
+        android:background="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnBckCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#808080"
+        android:textColor="#ffff"
+        android:text="BACK to Camera"
+        android:layout_below="@+id/imgResult"/>
+
+</RelativeLayout>

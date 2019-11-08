@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="570dp"
+        android:layout_margin="50dp"
+        android:layout_centerInParent="true"
+        android:elevation="100dp"
+        android:background="#ffff">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="70dp"
+            android:src="@drawable/pint"/>
+
+
+        <Button
+            android:id="@+id/btnKamera"
+            android:layout_width="287dp"
+            android:layout_height="72dp"
+            android:layout_below="@+id/logo"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/red"
+            android:text="OPEN KAMERA"
+            android:textColor="#ffff" />
+
+        <Button
+            android:id="@+id/btnLogOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="170dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#808080"
+            android:textColor="#ffff"
+            android:text="log Out"
+            android:layout_below="@+id/btnKamera"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
